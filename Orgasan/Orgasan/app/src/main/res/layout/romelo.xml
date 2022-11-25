@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    
+     <ImageView
+android:layout_centerHorizontal="true"
+ android:layout_height="100dp"              android:layout_width="100dp"
+    android:id="@+id/profile"
+    android:src="@drawable/romelo"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@+id/name"
+    />
+  
+  <LinearLayout  
+       
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+android:layout_height="wrap_content"
+      android:layout_toRightOf="@id/profile"
+      android:layout_below="@+id/title">
+      <TextView  
+      android:layout_marginTop="0dp"
+android:id="@+id/name"
+android:layout_width="fill_parent"
+android:layout_height="30dp"
+android:textColor="#000000"
+android:text="Anne Grace M. Romelo"
+android:textSize="20dp"
+/>
+      
+ <TextView 
+android:id="@+id/addr"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:textColor="#000000"
+android:text="Address:4th Josjua St. Phase 2 Manuyo Dos LPC"
+android:textSize="14dp"/>
+
+<TextView 
+android:id="@+id/number"
+android:layout_width="800dp"
+android:layout_height="fill_parent"
+android:textColor="#000000"
+android:text="Contact No.09666424571"
+android:textSize="14dp"/>
+
+   </LinearLayout>
+
+
+<View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#E91E63"
+        android:layout_marginTop="0dp"
+  android:layout_below="@id/profile"
+  android:id="@+id/line"/>
+ 
+        
+        
+        
+<ScrollView
+android:layout_below="@id/line"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:scrollbars="none">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:shrinkColumns="1"
+    >
+
+    <TableRow>
+        <TextView
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Personal Information"
+            />
+        <TextView
+            android:text=""
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Date of Birth"
+         android:gravity="center"   />
+        <TextView 
+            android:text="October 03,200"        
+            android:padding="5dip"
+            android:gravity="left"
+             />
+    </TableRow>
+
+
+        <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Place of Birth"
+            />
+        <TextView
+android:gravity="left"
+            android:text="Sambayanihan People Village"        
+            android:padding="5dip" /> 
+    </TableRow>
+
+   <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Age"
+            />
+        <TextView
+            android:text="22"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+   
+    <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Civil Status"
+            />
+        <TextView
+            android:text="Single"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+   
+    <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Citizenship"
+            />
+        <TextView
+            android:text="Filipino"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Religion"
+            />
+        <TextView
+            android:text="Catholic"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Language"
+            />
+        <TextView
+            android:text="Tagalog"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Father's name"
+            />
+        <TextView
+            android:text="Pedro B. Romelo"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Occupation"
+            />
+        <TextView
+            android:text="Office Assistant"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Mother's name"
+            />
+        <TextView
+            android:text="Noeme M. Romelo"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Occupation"
+            />
+        <TextView
+            android:text="Housewife"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Interest"
+            />
+        <TextView
+            android:text="Watching Anime's"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    
+  
+  <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+  
+    <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Skills"
+            />
+        <TextView
+            android:text="Influence"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text=""
+            />
+        <TextView
+            android:text="Teamwork"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+      <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text=""
+            />
+        <TextView
+            android:text="Communication"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+      <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text=""
+            />
+        <TextView
+            android:text="Time Management"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+      <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Educational Background"
+            />
+        <TextView
+            android:text=""   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    
+      <TableRow 
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="College "
+            />
+        <TextView
+
+           android:text="Dr.Filemon C. Aguilar Memorial College of Las Piñas -IT Campus"   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    
+    <TableRow 
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Senior High school "
+            />
+        <TextView
+
+           android:text="Las Piñas National Senior High School Caa Campus"   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    
+    <TableRow 
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Junior High School"
+            />
+        <TextView
+
+           android:text="CAA National Highschool Annex"   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    <TableRow 
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Elementary "
+            />
+        <TextView
+
+           android:text="Caa Elementary School"   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+</TableLayout>
+
+ </ScrollView>  
+</RelativeLayout>

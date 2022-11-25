@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    
+     <ImageView
+android:layout_centerHorizontal="true"
+ android:layout_height="100dp"              android:layout_width="100dp"
+    android:id="@+id/profile"
+    android:src="@drawable/orgasan"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@+id/name"
+    />
+  
+  <LinearLayout  
+       
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+android:layout_height="wrap_content"
+      android:layout_toRightOf="@id/profile"
+      android:layout_below="@+id/title">
+      <TextView  
+      android:layout_marginTop="0dp"
+android:id="@+id/name"
+android:layout_width="fill_parent"
+android:layout_height="30dp"
+android:textColor="#000000"
+android:text="Claire R. Orgasan"
+android:textSize="20dp"
+/>
+      
+ <TextView 
+android:id="@+id/addr"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:textColor="#000000"
+android:text="Address:blk 28 lot 21 phase 3 st. Louie Village talon tres LPC"
+android:textSize="14dp"/>
+
+<TextView 
+android:id="@+id/number"
+android:layout_width="800dp"
+android:layout_height="fill_parent"
+android:textColor="#000000"
+android:text="Contact No.09702360130"
+android:textSize="14dp"/>
+
+   </LinearLayout>
+
+
+<View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#E91E63"
+        android:layout_marginTop="0dp"
+  android:layout_below="@id/profile"
+  android:id="@+id/line"/>
+ 
+        
+        
+        
+<ScrollView
+android:layout_below="@id/line"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:scrollbars="none">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:shrinkColumns="1"
+    >
+
+    <TableRow>
+        <TextView
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Personal Information"
+            />
+        <TextView
+            android:text=""
+            android:gravity="left"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Date of Birth"
+         android:gravity="center"   />
+        <TextView 
+            android:text="May 22, 2001"        
+            android:padding="5dip"
+            android:gravity="left"
+             />
+    </TableRow>
+
+
+        <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Place of Birth"
+            />
+        <TextView
+android:gravity="left"
+            android:text="Las Piñas City"        
+            android:padding="5dip" /> 
+    </TableRow>
+
+   <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Age"
+            />
+        <TextView
+            android:text="21"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+   
+    <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Civil Status"
+            />
+        <TextView
+            android:text="Single"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+   
+    <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Citizenship"
+            />
+        <TextView
+            android:text="Filipino"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Religion"
+            />
+        <TextView
+            android:text="Catholic"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Language"
+            />
+        <TextView
+            android:text="Tagalog"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Father's name"
+            />
+        <TextView
+            android:text="Asterio Orgasan"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Occupation"
+            />
+        <TextView
+            android:text="Foreman"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Mother's name"
+            />
+        <TextView
+            android:text="Shierly Orgasan"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    
+     <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Occupation"
+            />
+        <TextView
+            android:text="Housewife"        
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Interest"
+            />
+        <TextView
+            android:text="Singing"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    
+    <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text=""
+            />
+        <TextView
+            android:text="Watching Kdramas"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+  <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+  
+    <TableRow>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Skills"
+            />
+        <TextView
+            android:text="Customer Representative"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text=""
+            />
+        <TextView
+            android:text="Teamwork"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+      <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text=""
+            />
+        <TextView
+            android:text="Communication"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+      <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text=""
+            />
+        <TextView
+            android:text="Time Management"  
+            android:layout_width="fill_parent"      
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+      <TableRow
+>
+        <TextView
+android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Educational Background"
+            />
+        <TextView
+            android:text=""   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    
+      <TableRow 
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="College "
+            />
+        <TextView
+
+           android:text="Dr.Filemon C. Aguilar Memorial College of Las Piñas -IT Campus"   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    
+    <TableRow 
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Senior High school "
+            />
+        <TextView
+
+           android:text="Rizal Experiment Station and Pilot School cottage of Industrial"   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    
+    <TableRow 
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Junior High School"
+            />
+        <TextView
+
+           android:text="St. Augustine/AMA"   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+    <TableRow 
+>
+        <TextView
+android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Elementary "
+            />
+        <TextView
+
+           android:text="Talon tres Elementary School"   
+            android:padding="5dip"
+            android:gravity="left" /> 
+    </TableRow> 
+</TableLayout>
+
+ </ScrollView>  
+</RelativeLayout>
